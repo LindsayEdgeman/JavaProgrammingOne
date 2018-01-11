@@ -36,8 +36,8 @@ public class C6_18 {
     /**
      * Characters method
      *
-     * @param password
-     * @param counter
+     * @param password the string we are validating
+     * @param counter checks how many strikes the password receives
      */
     public static void Characters(String password, int counter) {
         if (password.length() >= 8) {
@@ -50,8 +50,8 @@ public class C6_18 {
     /**
      * lettersDigits method
      *
-     * @param password
-     * @param counter
+     * @param password the string we are validating
+     * @param counter checks how many strikes the password receives
      */
     public static void lettersDigits(String password, int counter) {
         for (int i = 0; i < password.length(); i++) {
@@ -66,8 +66,8 @@ public class C6_18 {
     /**
      * digits method
      *
-     * @param password
-     * @param counter
+     * @param password the string we are validating
+     * @param counter checks how many strikes the password receives
      */
     public static void digits(String password, int counter) {
         for (int i = 0; i < password.length(); i++) {

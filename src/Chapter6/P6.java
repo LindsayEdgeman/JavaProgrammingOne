@@ -12,7 +12,7 @@ public class P6 {
     /**
      * Main method
      *
-     * @param args
+     * @param args arguments from the command line prompt
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -64,13 +64,13 @@ public class P6 {
 
     }
 
-//converts the choosen currency and dollars 
+//converts the chosen currency and dollars 
     /**
      * Conversion method
      *
-     * @param currency
-     * @param dollar
-     * @return total
+     * @param currency currency we are converting
+     * @param dollar amount in dollars we are converting
+     * @return total amount of dollars currency is equivalent to
      */
     public static double Conversion(double currency, double dollar) {
         double total;
