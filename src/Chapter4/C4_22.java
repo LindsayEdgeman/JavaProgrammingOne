@@ -3,7 +3,7 @@ package Chapter4;
 import java.util.Scanner;
 
 /**
- *program to determine if string 1 is a substring of string 2
+ * program to determine if string 1 is a substring of string 2
  *
  * @author Lindsay Edgeman
  */
@@ -14,7 +14,6 @@ public class C4_22 {
      *
      * @param args arguments from the command prompt
      */
-
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
