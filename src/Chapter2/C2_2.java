@@ -14,7 +14,6 @@ public class C2_2 {
      *
      * @param args arguments from command line prompt
      */
-
     public static void main(String[] args) {
         final double PI = 3.14159;
 
