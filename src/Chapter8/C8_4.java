@@ -6,11 +6,12 @@ package Chapter8;
  * @author Lindsay Edgeman
  */
 public class C8_4 {
-/**
- * Main method
- * 
- * @param args arguments from the command prompt line 
- */
+
+    /**
+     * Main method
+     *
+     * @param args arguments from the command prompt line
+     */
     public static void main(String[] args) {
         int[][] weeklyHours = {
             {2, 4, 3, 4, 5, 8, 8},
@@ -31,12 +32,13 @@ public class C8_4 {
             System.out.println("Employee " + totalHour[0] + ": " + totalHour[1]);
         }
     }
-/**
- * bSortDecrease Method
- * 
- * @param array just a collection for an array of ints
- * 
- */
+
+    /**
+     * bSortDecrease Method
+     *
+     * @param array just a collection for an array of ints
+     *
+     */
     public static void bSortDecrease(int[][] array) {
         boolean change;
 
@@ -53,12 +55,13 @@ public class C8_4 {
             }
         } while (change);
     }
-/**
- * getTotalHours method
- * 
- * @param hours gets number of hours
- * @return the total hours 
- */
+
+    /**
+     * getTotalHours method
+     *
+     * @param hours gets number of hours
+     * @return the total hours
+     */
     public static int[][] getTotalHours(int[][] hours) {
 
         int[][] totalHours = new int[hours.length][2];
@@ -74,4 +77,3 @@ public class C8_4 {
         return totalHours;
     }
 }
-

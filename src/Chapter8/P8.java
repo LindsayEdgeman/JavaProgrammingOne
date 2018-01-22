@@ -3,7 +3,7 @@ package Chapter8;
 import java.util.Scanner;
 
 /**
- * program to
+ * program to make an array with salesman's workday
  *
  * @author Lindsay Edgeman
  */

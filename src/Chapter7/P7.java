@@ -1,16 +1,17 @@
-
-
 package Chapter7;
+
 import java.util.Scanner;
+
 /**
- *program creates an array
- * 
+ * program creates an array
+ *
  * @author Lindsay Edgeman
  */
 public class P7 {
+
     /**
      * Main method
-     * 
+     *
      * @param args arguments from the command line prompt
      */
     public static void main(String[] args) {
@@ -22,13 +23,14 @@ public class P7 {
         System.out.println("Average: " + getAvg(array));
         printArray(array);
     }
-/**
- * getValues method
- * 
- * @param array the array of values
- * @param input input from the user 
- * @return the array
- */
+
+    /**
+     * getValues method
+     *
+     * @param array the array of values
+     * @param input input from the user
+     * @return the array
+     */
     public static int[] getValues(int[] array, Scanner input) {
         System.out.println("Enter the " + array.length + " elements: ");
         for (int x = 0; x < array.length; ++x) {
@@ -38,12 +40,13 @@ public class P7 {
         }
         return array;
     }
-/**
- * getAvg method
- * 
- * @param array array from given values
- * @return the average 
- */
+
+    /**
+     * getAvg method
+     *
+     * @param array array from given values
+     * @return the average
+     */
     public static double getAvg(int[] array) {
         double avg = 0;
 
@@ -54,13 +57,14 @@ public class P7 {
         avg = avg / array.length;
         return avg;
     }
-/**
- * printArray method
- * 
- * @param array continued array with inputed values
- */
+
+    /**
+     * printArray method
+     *
+     * @param array continued array with inputed values
+     */
     public static void printArray(int[] array) {
         System.out.print("Array: " + java.util.Arrays.toString(array));
-        
+
     }
 }
